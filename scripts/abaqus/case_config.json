@@ -1,0 +1,127 @@
+{
+  "global": {
+    "standard_frames": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200
+    ],
+    "line_positions_mm": {
+      "01": 0.2,
+      "10": 2.0,
+      "20": 4.0,
+      "30": 6.0,
+      "40": 8.0
+    },
+    "displacement": {
+      "smooth_window": 3,
+      "threshold_ratio": 0.2,
+      "grid_size": 101
+    },
+    "thickness": {
+      "axis_name": "Z",
+      "theta_round_deg": 0.25,
+      "z_round_mm": 0.05,
+      "theta_match_tolerance_deg": 0.6,
+      "z_match_tolerance_mm": 0.3,
+      "outer_surface_radius_margin_mm": 0.2,
+      "inner_surface_radius_margin_mm": 0.2,
+      "point_selection_by_type": {
+        "control": "median",
+        "dent": "minimum",
+        "bulge": "maximum"
+      }
+    }
+  },
+  "cases": {
+    "S1": {
+      "radius_mm": 30.0,
+      "nominal_thickness_mm": 1.0,
+      "speed_mm_s": 50.0,
+      "reference_inner_radius_mm": 29.5,
+      "odb_filename": "S1.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": null,
+      "ks_override": null,
+      "ke_override": null
+    },
+    "S2": {
+      "radius_mm": 30.0,
+      "nominal_thickness_mm": 1.5,
+      "speed_mm_s": 50.0,
+      "reference_inner_radius_mm": 29.25,
+      "odb_filename": "S2.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": null,
+      "ks_override": null,
+      "ke_override": null
+    },
+    "S3": {
+      "radius_mm": 40.0,
+      "nominal_thickness_mm": 1.0,
+      "speed_mm_s": 66.67,
+      "reference_inner_radius_mm": 39.5,
+      "odb_filename": "S3.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": 0.8333333333,
+      "ks_override": null,
+      "ke_override": null
+    },
+    "S4": {
+      "radius_mm": 40.0,
+      "nominal_thickness_mm": 1.5,
+      "speed_mm_s": 66.67,
+      "reference_inner_radius_mm": 39.25,
+      "odb_filename": "S4.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": null,
+      "ks_override": null,
+      "ke_override": null
+    },
+    "S5": {
+      "radius_mm": 50.0,
+      "nominal_thickness_mm": 1.0,
+      "speed_mm_s": 83.33,
+      "reference_inner_radius_mm": 49.5,
+      "odb_filename": "S5.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": null,
+      "ks_override": null,
+      "ke_override": null
+    },
+    "S6": {
+      "radius_mm": 50.0,
+      "nominal_thickness_mm": 1.5,
+      "speed_mm_s": 83.33,
+      "reference_inner_radius_mm": 49.25,
+      "odb_filename": "S6.odb",
+      "step_name": "Step-1",
+      "instance_name": null,
+      "path_keep_fraction": null,
+      "ks_override": null,
+      "ke_override": null
+    }
+  }
+}
